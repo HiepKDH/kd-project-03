@@ -101,13 +101,33 @@ button {
 }
 
 /* Header */
-
 .fixed-header {
-    padding-top: 20px;
+    padding-top: 15px;
     position: sticky;
-    top: -26px;
+    top: -18px;
     z-index: 2;
     background: #10375c;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header-action {
+    display: flex;
+    align-items: center;
+}
+
+.header-action__login {
+    margin-right: 7px;
+}
+
+.header-action__signup {
+    --height: 44px;
+    min-width: 104px;
 }
 
 .logo {
@@ -157,14 +177,6 @@ button {
     font-weight: 300;
 }
 
-/* Header Top */
-.header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
-}
-
 .navbar__list {
     display: flex;
 }
@@ -193,20 +205,6 @@ button {
     height: 6px;
     border-radius: 50%;
     background: #fff;
-}
-
-.header-action {
-    display: flex;
-    align-items: center;
-}
-
-.header-action__login {
-    margin-right: 7px;
-}
-
-.header-action__signup {
-    --height: 44px;
-    min-width: 104px;
 }
 
 /* hero */
